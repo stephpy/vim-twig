@@ -44,3 +44,14 @@ snippet block
 	{% block ${1:name} %}${2}{% endblock %}
 snippet f_date
 	{{ ${1:a_date}|date("${2:m/d/Y}") }}
+snippet spaceless
+	{% spaceless %}
+	${1}
+	{% endspaceless %}
+snippet autoescape
+	{% autoescape %}
+	${1}
+	{% endautoescape %}
+snippet do
+	{% do ${1} %}
+
